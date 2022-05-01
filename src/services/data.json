@@ -1,0 +1,68 @@
+[
+    {
+        "title": "Understanding color...: ",
+        "date": "25 April, 2022",
+        "ticket_number": 0,
+        "status": "SOLD OUT",
+        "id": 0,
+        "img":
+          "https://res.cloudinary.com/skiltime/image/upload/v1650529449/event-1_ogn38i.png"
+      },
+      {
+        "title": "RGD Design Thinkers",
+        "date": "25 April, 2022",
+        "ticket_number": 11,
+        "status": "Available",
+        "id": 1,
+        "img":
+          "https://res.cloudinary.com/skiltime/image/upload/v1650529449/event-2_d2nf4a.png"
+      },
+      {
+        "title": "What Design Can Do",
+        "date": "25 April, 2022",
+        "ticket_number": 206,
+        "status": "Available",
+        "id": 2,
+        "img": "https://res.cloudinary.com/skiltime/image/upload/v1650529448/event-3_tpgzh3.png"
+      },
+      {
+        "title": "Perth UX Camp",
+        "date": "25 April, 2022",
+        "ticket_number": 47,
+        "status": "Available",
+        "id": 3,
+        "img": "https://res.cloudinary.com/skiltime/image/upload/v1650529449/event-4_qccoyn.png"
+      },
+      {
+        "title": "Sofia Design",
+        "date": "25 April, 2022",
+        "ticket_number": 66,
+        "status": "Available",
+        "id": 4,
+        "img": "https://res.cloudinary.com/skiltime/image/upload/v1650529449/event-5_gdlxwd.png"
+      },
+      {
+        "title": "Design Indaba Conference",
+        "date": "25 April, 2022",
+        "ticket_number": 84,
+        "status": "Available",
+        "id": 5,
+        "img": "https://res.cloudinary.com/skiltime/image/upload/v1650529449/event-6_my2lnn.png"
+      },
+      {
+        "title": "TYPO Berlin",
+        "date": "25 April, 2022",
+        "ticket_number": 4,
+        "status": "Available",
+        "id": 6,
+        "img": "https://res.cloudinary.com/skiltime/image/upload/v1650529448/event-7_ma7t94.png"
+      },
+      {
+        "title": "AIGA Design Conference",
+        "date": "25 April, 2022",
+        "ticket_number": 16,
+        "status": "Available",
+        "id": 7,
+        "img": "https://res.cloudinary.com/skiltime/image/upload/v1650529448/event-8_mvndai.png"
+      }
+]

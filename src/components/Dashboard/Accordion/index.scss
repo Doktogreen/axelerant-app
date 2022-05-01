@@ -1,0 +1,223 @@
+/* Accordion */
+
+.Accordion {
+   width: 99%;
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+   padding-left: 35px;
+}
+
+.accordion-heading {
+   width: 317px;
+   height: 40px;
+   margin-bottom: 20px;
+   margin-left: -45px;
+   font-family: 'Almarai';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 40px;
+   color: #212121;
+}
+details {
+    width: 99%;
+}
+details div {
+   border-left: 1px solid #d5d5d5;
+   border-right: 1px solid #d5d5d5;
+   border-bottom: 1px solid #d5d5d5;
+   padding: 1.5em;
+   background-color: #fafafa;
+}
+
+.div-heading {
+   font-family: 'Almarai';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 22px;
+   color: #212121;
+   flex: none;
+   order: 0;
+   flex-grow: 0;
+   margin: 8px 0px;
+}
+
+summary::-webkit-details-marker {
+   display: none;
+}
+
+summary {
+   padding: .75em .4em;
+   cursor: pointer;
+   padding-left: calc(.65rem + .65rem + .65rem);
+   font-family: 'Almarai';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 22px;
+   align-items: center;
+   justify-content: center;
+   color: #212121;
+   flex: none;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   position: static;
+   height: 72px;
+   background: #fff;
+   border: 1px solid #D5D5D5;
+   order: 1;
+   flex-grow: 1;
+}
+
+.summary-paragraph {
+   font-family: 'Almarai';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 18px;
+   color: #212121;
+   flex: none;
+   order: 1;
+   flex-grow: 0;
+   margin: 8px 0px;
+}
+
+summary:before {
+   position: relative;
+   top: 50%;
+   transform: translateY(-50%);
+   left: -5rem;
+   content: "";
+   width: 1.50rem;
+   height: 1.42rem;
+   border: 1px solid #d5d5d5;
+   border-radius: 20px;
+   background-color: transparent;
+   color: #FFF;
+   display: inline-flex;
+   justify-content: center;
+   align-items: center;
+   flex-shrink: 0;
+}
+
+details[open] summary {
+   background-color: #fafafa;
+   border: 1px solid #d5d5d5;
+}
+
+details[open] summary:before {
+   /* content: "↑"; */
+   width: 1.50rem;
+   height: 1.42rem;
+   content: url(https://res.cloudinary.com/skiltime/image/upload/v1650529450/check_en7r5k.png);
+}
+summary:hover {
+   background-color: #fafafa;
+}
+
+a {
+   color: inherit;
+   font-weight: 600;
+   text-decoration: none;
+   box-shadow: 0 1px 0 0;
+}
+
+a:hover {
+   box-shadow: 0 3px 0 0;
+}
+
+code {
+   font-family: monospace;
+   font-weight: 600;
+}
+
+.accordion-btns {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    width: 260px;
+   //  min-width: 390px;
+    min-height: fit-content;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 500px) and (min-width: 391px){
+  .accordion-btns {
+   width: 65% !important;
+  }
+}
+
+@media only screen and (max-width: 390px){
+   .btn-wrapper {
+      width: 100% !important;
+      height: 50px !important;
+      margin-bottom: 10px;
+      min-width: 300px !important;
+   }
+   .accordion-btns {
+      position: absolute;
+      width: 95% !important;
+      height: fit-content !important;
+      min-width: 300px !important;
+   }
+   .btn2 {
+      width: 100% !important;
+      text-align: center !important;
+      justify-content: center !important;
+      min-width: 300px !important;
+   }
+   .btn1 {
+      width: 100% !important;
+      text-align: center !important;
+      justify-content: center !important;
+      min-width: 300px !important;
+   }
+   
+   
+   .wrap-configure100 {
+      padding: 0px 0px 0px 0px !important;
+      min-width: 300px !important;
+   }
+    details {
+       min-width: 300px !important;
+    }
+}
+@media only screen and (max-width: 768px){
+   .Accordion {
+      width: 95%;
+      margin-top: 4rem !important;
+      margin-bottom: 5rem;
+      padding-left: 35px;
+   }
+   
+   .wrap-configure100 {
+      padding: 0px 0px 0px 0px !important;
+   }
+    details {
+       width: 100% !important;
+    }
+    .configure100-img > img {
+       width: 100% !important;
+    }
+}
+
+.btn2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    position: absolute;
+    width: 120px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #FC732F;
+    border-radius: 4px;
+}
+
+.btn1 > img , .btn2 > img {
+   margin-right: 13px;
+}

@@ -1,0 +1,175 @@
+.title {
+  width: inherit;
+  height: 27px;
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #212121;
+}
+
+.sub-titles {
+  width: inherit;
+  height: 20px;
+  margin-top: 7px;
+  font-family: 'Almarai';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #212121;
+}
+
+.inputs-two {
+  padding-bottom: 10px;
+}
+
+.subtitle-two {
+  padding-top: 10px;
+}
+.inputs {
+  padding: 20px 0px;
+  padding-bottom: 40px !important;
+  margin: 20px 0px;
+  min-height: fit-content;
+  border-bottom: 1px solid #D5D5D5;
+  border-top: 1px solid #D5D5D5;
+}
+  label > div {
+    width: 90% !important;
+  }
+  input {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    background: #FFF;
+    border: 1px solid #d5d5d5 !important;
+    border-radius: 4px !important;
+    margin: 10px 0;
+  }
+
+  select {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+    background: #FFF;
+    border: 1px solid #d5d5d5;
+    margin: 10px 0;
+  }
+  
+  .required {
+    color: red !important;
+    margin-bottom: 10px !important;
+    padding: 0px !important;
+    font-size: .85em;
+  }
+
+  .attendeeTwo {
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .attendeeTwo > input {
+    width: 100% !important;
+    background-color: red;
+  }
+  .attendeeTwo > label {
+    font-weight: bold;
+  }
+  .attendeeOne {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .attendeeOne > input {
+    width: 90%;
+  }
+  .attendeeOne > label {
+    font-weight: bold;
+  }
+  .attendeeThree {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .attendeeThree > input {
+    width: 90%;
+  }
+  .attendeeThree > label {
+    font-weight: bold;
+  }
+  .button {
+    width: 239px;
+    height: 50px;
+    left: calc(50% - 239px/2 - 135.5px);
+    border: 2px solid #FC732F;
+    border-radius: 4px;
+  }
+
+  .add-attendee {
+    display: flex;
+    cursor: pointer;
+    max-width: 170px;
+    min-width: 170px;
+    padding: 10px 0px;
+    margin: -10px 0px;
+    padding-bottom: 20px !important;
+    justify-content: space-between;
+    float: right;
+
+  }
+  .add-attendee-text {
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FC732F;
+
+  }
+  .buttons::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .none {
+    display: none !important;
+  }
+  .book,
+  .cancel {
+    width: 46%;
+    font-family: 'Almarai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: capitalize;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .cancel {
+    background: transparent;
+    color: #FC732F;
+    float: right;
+  }
+
+  .book {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #FC732F;
+    color: #FFF;
+    float: left;
+  }
+  
